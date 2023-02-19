@@ -1,8 +1,12 @@
+/* --------------- CSS RESET --------------- */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* --------------- BODY --------------- */
 
 body {
   width: 100%;
@@ -11,30 +15,51 @@ body {
   color: #212121;
 }
 
+/* --------------- HEADINGS AND PARAGRAPHS --------------- */
+
+h1 {
+  font-size: 95px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: light;
+  color: #6f6f6f;
+  line-height: 30px;
+}
+
+.smaller-text {
+  font-size: 16px;
+}
+
+/* --------------- NAVIGATION BAR --------------- */
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
 nav {
   margin: 0 auto;
   width: 80%;
-  height: 60px;
+  height: 100px;
   border: solid 1px rgb(236, 203, 203);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .logo {
-  width: 50px;
-  height: 16px;
-}
-
-.nav-buttons {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  list-style-type: none;
-  gap: 100px;
-  font-size: 16px;
+  width: 100px;
+  height: 32px;
 }
 
 .button-right {
@@ -45,39 +70,97 @@ nav {
   border-radius: 2px;
   font-family: 'Lexend Exa', sans-serif;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 20px;
 }
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+  gap: 100px;
+  font-size: 20px;
+}
+
+/* --------------- HEADER --------------- */
 
 header {
   margin: 0 auto;
-  
   height: 800px;
   display: flex;
   align-items: center;
   border: solid 1px rgb(236, 203, 203);
   background-color: #f2efd2;
-
 }
 
-.text-box {
-  width: 45%;
-  height: 50%;
+.header-text-box {
+  width: 900px;
+  height: 440px;
   border: solid 1px rgb(68, 236, 121);
   margin-left: 10%;
 }
 
-h1 {
-  font-size: 65px;
-}
-
-p {
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: light;
-  color: #6f6f6f;
+.honey-spoon {
+  margin-left: 200px;
+  height: 100%;
+  border: solid 1px rgb(68, 236, 121);
 }
 
 .text-box-button {
+  margin-top: 40px;
   border: none;
-  background-color: transparent;
+  background-color: #f3cc14;
+  padding: 10px 20px;
+  border-radius: 2px;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* --------------- MAIN --------------- */
+
+/* SECTION ONE */
+
+.section-one {
+  margin: 0 auto;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px rgb(236, 203, 203);
+  text-align: center;
+}
+
+span {
+  background-color: #f3cc14;
+  padding: 6px 10px;
+}
+
+/* SECTION HEXAGONS */
+
+.section-hexagons {
+  margin: 0 auto;
+  width: 80%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px rgb(236, 203, 203);
+  
+}
+
+.the-finest {
+  margin-left: 140px;
+}
+
+.hundred-percent-natural {
+  margin-left: 140px;
+}
+.hexagon-pic {
+  height: 500px;
+  width: 434px;
+}
+
+.hexagon-pic.honey {
+  margin-left: 120px;
 }
