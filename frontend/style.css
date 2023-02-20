@@ -46,7 +46,7 @@ p {
   line-height: 30px;
 }
 
-.smaller-text {
+ .smaller-text {
   font-size: 16px;
 }
 
@@ -56,7 +56,7 @@ nav {
   margin: 0 auto;
   width: 80%;
   height: 100px;
-  border: solid 1px rgb(236, 203, 203);
+  /*border: solid 1px rgb(236, 203, 203);*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -100,21 +100,21 @@ header {
   height: 800px;
   display: flex;
   align-items: center;
-  border: solid 1px rgb(236, 203, 203);
+  /*border: solid 1px rgb(236, 203, 203);*/
   background-color: #f2efd2;
 }
 
 .header-text-box {
   width: 900px;
   height: 440px;
-  border: solid 1px rgb(68, 236, 121);
   margin-left: 10%;
+  /*border: solid 1px rgb(68, 236, 121);*/
 }
 
 .header-image {
-  margin-left: 200px;
+  margin-left: 150px;
   height: 100%;
-  border: solid 1px rgb(68, 236, 121);
+  /*border: solid 1px rgb(68, 236, 121);*/
 }
 
 .text-box-button {
@@ -128,7 +128,7 @@ header {
   font-weight: 500;
 }
 
-/* --------------- MAIN --------------- */
+/* ---------------------- MAIN ----------------------- */
 
 /* --------------- SECTION ONE --------------- */
 
@@ -138,7 +138,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid 1px rgb(236, 203, 203);
+  /*border: solid 1px rgb(236, 203, 203);*/
   text-align: center;
 }
 
@@ -152,34 +152,38 @@ span {
 .section-hexagons {
   margin: 0 auto;
   width: 80%;
-  height: 600px;
+  height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid 1px rgb(236, 203, 203);
+  /*border: solid 1px rgb(236, 203, 203);*/
   
 }
 
 .the-finest {
   margin-left: 140px;
+  /*border: solid 1px rgb(236, 203, 203);*/
 }
 
 .hexagon-pic {
   height: 500px;
   width: 434px;
+  /*border: solid 1px rgb(236, 203, 203);*/
 }
 
 .hexagon-pic.bee {
   margin-left: 120px;
+  /*border: solid 1px rgb(236, 203, 203);*/
 }
 
 .hexagon-pic.honey-plate {
   margin-right: 130px;
+  /*border: solid 1px rgb(236, 203, 203);*/
 }
 
 .features-box {
   margin-right: 80px;
-  border: solid 1px rgb(236, 203, 203);
+  /*border: solid 1px rgb(236, 203, 203);*/
   margin-bottom: 80px;
 }
 
@@ -187,18 +191,81 @@ span {
   display: flex;
   justify-content: flex-start;
   margin-left: 10px;
+  /*border: solid 1px rgb(236, 203, 203);*/
 }
 
-.number-images {
+.images-with-numbers {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  /*border: solid 1px rgb(236, 203, 203);*/
 }
-.small-image {
+.small-image-size {
   width: 25px;
   height: 25px;
 }
 
-.three-benefits {
+.three-benefits-box {
   margin-left: 15px;
+  /*border: solid 1px rgb(236, 203, 203);*/
+}
+
+/* --------------- SECTION UNIQUE --------------- */
+
+.section-unique {
+  margin: 0 auto;
+  width: 100%;
+  height: 500px;
+  background-color:#7a582c;
+  border: solid 1px rgb(236, 203, 203);
+  position: relative;
+}
+
+.beekeeper {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.buttons-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.white-text-box {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.yellow-button {
+  border: none;
+  background-color: #f3cc14;
+  padding: 10px 30px;
+  border-radius: 2px;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  margin-right: 30px;
+}
+.transparent-button {
+  background-color: transparent;
+  padding: 10px 30px;
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.a-white {
+  color: white;
+}
+
+.white-text-box h2 {
+  font-size: 55px;
 }
